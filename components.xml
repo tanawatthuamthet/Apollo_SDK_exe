@@ -1,0 +1,85 @@
+<Packages>
+    <ApplicationName>RoboStudio</ApplicationName>
+    <ApplicationVersion>1.0.0</ApplicationVersion>
+    <Package>
+        <Name>prod</Name>
+        <Pixmap></Pixmap>
+        <Title>All</Title>
+        <Description>All components.</Description>
+        <Version>1.1.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-09-30</InstallDate>
+        <Size>0</Size>
+        <Dependencies></Dependencies>
+    </Package>
+    <Package>
+        <Name>prod.prepare.uninst_too_old</Name>
+        <Pixmap></Pixmap>
+        <Title>Uninstall too old</Title>
+        <Description>Uninstall too old versions of RoboStudio that are no longer maintained.</Description>
+        <Version>1.1.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-09-30</InstallDate>
+        <Size>0</Size>
+        <Dependencies>prod</Dependencies>
+        <ForcedInstallation>true</ForcedInstallation>
+    </Package>
+    <Package>
+        <Name>prod.prepare</Name>
+        <Pixmap></Pixmap>
+        <Title>Prepare</Title>
+        <Description>Preparings before installation.</Description>
+        <Version>1.1.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-09-30</InstallDate>
+        <Size>0</Size>
+        <Dependencies>prod.prepare.uninst_too_old</Dependencies>
+        <ForcedInstallation>true</ForcedInstallation>
+    </Package>
+    <Package>
+        <Name>prod.prerequisite</Name>
+        <Pixmap></Pixmap>
+        <Title>Prerequisite</Title>
+        <Description>Prerequisites for RoboStudio.</Description>
+        <Version>1.1.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-09-30</InstallDate>
+        <Size>217</Size>
+        <Dependencies>prod.prepare</Dependencies>
+    </Package>
+    <Package>
+        <Name>prod.rs</Name>
+        <Pixmap></Pixmap>
+        <Title>RoboStudio</Title>
+        <Description>RoboStudio is an extensible robot management and development software.</Description>
+        <Version>1.2.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-09-30</InstallDate>
+        <Size>0</Size>
+        <Dependencies>prod.prepare</Dependencies>
+    </Package>
+    <Package>
+        <Name>prod.prerequisite.bonjour</Name>
+        <Pixmap></Pixmap>
+        <Title>Bonjour</Title>
+        <Description>It is helpfull for discovering robots automatically.</Description>
+        <Version>1.1.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-09-30</InstallDate>
+        <Size>5041651</Size>
+        <Dependencies>prod.prerequisite</Dependencies>
+        <ForcedInstallation>true</ForcedInstallation>
+    </Package>
+    <Package>
+        <Name>prod.rs.core</Name>
+        <Pixmap></Pixmap>
+        <Title>Core</Title>
+        <Description>The core compnent of RoboStudio.</Description>
+        <Version>1.2.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2020-09-30</InstallDate>
+        <Size>106302025</Size>
+        <Dependencies>prod.rs,prod.prerequisite.bonjour</Dependencies>
+        <ForcedInstallation>true</ForcedInstallation>
+    </Package>
+</Packages>
