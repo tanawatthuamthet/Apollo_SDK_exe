@@ -3,6 +3,12 @@
 
 It is a program from sdk slamtec developed by c ++.
 
+### Install
+  
+```
+git clone https://github.com/tanawatthuamthet/Apollo_SDK_exe
+```
+
 ## Requirements
 * Windows 7+
 * Apollo Slamtec
