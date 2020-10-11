@@ -27,6 +27,18 @@ burl status
 burl version
 ```
 
+### Battery
+   
+```
+burl battery
+```
+
+### Cancel
+   
+```
+burl cancel
+```
+
 ### Move
    
 ```
