@@ -60,6 +60,6 @@ burl rotate [] [] []
 ### Home
    
 ```
-burl gome
+burl home
 ```
 
