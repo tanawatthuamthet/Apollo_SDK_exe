@@ -62,7 +62,7 @@ burl move [position X] [position Y]
 ### Rotate
    
 ```
-burl rotate [] [] []
+burl rotate []
 ```
 
 ### Home
