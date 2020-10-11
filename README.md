@@ -10,26 +10,33 @@ It is a program from sdk slamtec developed by c ++.
 * move
 * home
 
-### status
+### Status of Robot
    
 ```
 burl status
 ```
 
-### version
+### Version of Robot
    
 ```
 burl version
 ```
 
-### move
+### Move
    
 ```
 burl move [position X] [position Y]
 ```
 
-### home
+### Rotate
+   
+```
+burl rotate [] [] []
+```
+
+### Home
    
 ```
 burl gome
 ```
+
