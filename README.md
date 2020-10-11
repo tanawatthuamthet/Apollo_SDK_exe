@@ -27,6 +27,11 @@ git clone https://github.com/tanawatthuamthet/Apollo_SDK_exe
 burl status
 ```
 
+* Running
+* Successful
+* Finished
+* Error
+
 ### Version of Robot
    
 ```
