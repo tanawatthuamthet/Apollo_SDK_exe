@@ -21,7 +21,9 @@ git clone https://github.com/tanawatthuamthet/Apollo_SDK_exe
 ## Method of use
 * status
 * version
+* cancel
 * move
+* rotate
 * home
 
 ### Status of Robot
