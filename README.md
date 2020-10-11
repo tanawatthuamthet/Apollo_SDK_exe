@@ -13,5 +13,23 @@ It is a program from sdk slamtec developed by c ++.
 ### status
    
 ```
-kdd
+burl status
+```
+
+### version
+   
+```
+burl version
+```
+
+### move
+   
+```
+burl move [position X] [position Y]
+```
+
+### home
+   
+```
+burl gome
 ```
