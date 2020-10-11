@@ -1,3 +1,4 @@
+![Test Image 1](https://www.img.in.th/images/16436ef0af076bb8ba8ce5e2629e244b.png)
 # Apollo_SDK_exe
 [![Version](https://badge.fury.io/gh/tterb%2FHyde.svg)](https://github.com/tanawatthuamthet)
 
@@ -8,7 +9,7 @@ It is a program from sdk slamtec developed by c ++.
 ```
 git clone https://github.com/tanawatthuamthet/Apollo_SDK_exe
 ```
-![Test Image 1](https://condorangsit.com/image_web/bangkok_university/banner%20bangkok%20university.jpg)
+
 ## Requirements
 * Windows 7+
 * Apollo Slamtec
