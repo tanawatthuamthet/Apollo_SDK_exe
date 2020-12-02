@@ -25,11 +25,12 @@ git clone https://github.com/tanawatthuamthet/Apollo_SDK_exe
 * move
 * rotate
 * home
+* sensor
 
 ### Status of Robot
    
 ```
-burl status
+burl IP status
 ```
 
 * Running
@@ -40,36 +41,40 @@ burl status
 ### Version of Robot
    
 ```
-burl version
+burl IP version
 ```
 
 ### Battery
    
 ```
-burl battery
+burl IP battery
 ```
 
 ### Cancel
    
 ```
-burl cancel
+burl IP cancel
 ```
 
 ### Move
    
 ```
-burl move [position X] [position Y]
+burl IP move [position X] [position Y]
 ```
 
 ### Rotate
    
 ```
-burl rotate []
+burl IP rotate []
 ```
 
 ### Home
    
 ```
-burl home
+burl IP home
 ```
 
+### SENSOR
+```
+burl IP home
+```
