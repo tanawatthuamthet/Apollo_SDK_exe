@@ -59,13 +59,13 @@ burl IP cancel
 ### Move
    
 ```
-burl IP move [position X] [position Y]
+burl IP move position X position Y
 ```
 
 ### Rotate
    
 ```
-burl IP rotate []
+burl IP rotate deg
 ```
 
 ### Home
@@ -76,5 +76,5 @@ burl IP home
 
 ### SENSOR
 ```
-burl IP home
+burl IP sensor number
 ```
