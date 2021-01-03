@@ -59,13 +59,13 @@ burl IP cancel
 ### Move
    
 ```
-burl IP move position X position Y
+burl IP move positionX positionY
 ```
 
 ### Rotate
    
 ```
-burl IP rotate deg
+burl IP rotate Degree
 ```
 
 ### Home
